@@ -1,0 +1,126 @@
+hw6-txt
+
+Basic Algorithms, Section 1, Fall 2021.
+
+THIS IS HOMEWORK 6 (200 Points)
+
+	There are 3 files you need to write: 
+				myGraphsWt.java		-- 70 points
+				myUnionFind.java	-- 70 points
+				myKruskal.java		-- 60 points
+	
+	The java files we provide are
+			Util.java
+			Graph.java
+			GraphWt.java
+			UnionFindInterface.java
+			UnionFind.java
+			Kruskal.java
+	You must not change these files.
+
+OVERVIEW OF Homework 6 
+0.  Goals of this homework
+		(1) Implement some basic graphs algorithms in myGraphWt.java
+		(2) Implement the UnionFind algorithms in myUnionFind.java
+		(3) Implement Kruskal's algorithms in myKruskal.java
+	Don't worry, we have designed the entire infra-structure for
+	your implementations in
+		GraphWt.java 		-- for weighted graphs
+		UnionFind.java		-- for naive UnionFind algorithms
+		Kruskal.java		-- for naive Kruskal algorithm
+	You just have to extend these classes.
+	In each file, we leave two or three methods for you to
+	implement.
+
+1.	You will spend a good deal of this homework trying to
+	understand the design of our programs.  The actual amount
+	of code you need to write is really not that much.  
+	
+	Each of the provided java files (Graph.java, GraphWt.java, etc)
+	contains an overview of the design of that class.
+	We suggest that you begin by reading the overviews, and looking
+	at the code to confirm your understanding.
+	
+	When you write your extensions of these classes, you may add
+	additional members to the original class.  E.g., your myUnionFind
+	extends our UnionFind, and you may need some members called
+				int[] size;
+	to store the size of each compressed tree.
+
+	We suggest a hands-on approach -- run our programs to see what each
+	does.  Give it different parameters to understand its behavior
+	(try to give parameters from command line).   Beyond our
+	standard arguments of ss, nn, mm, you can add as many
+	arguments as you like!
+
+2.	REMEMBER IMPORTANT FACTS about randomness from past homeworks.
+		All your sources of randomness must be
+		tightly controlled, and follow our specifications.
+		Otherwise, you cannot duplicate our output
+			(we will mainly grade you by your output files)
+		Do not use Math.random() as you have no control over it.
+
+3.	Briefly review the basic use of the
+	standard Java class called "ArrayList" from java.util.ArrayList.
+	Perhaps the fastest way to be familiar is to look at the
+	usages throughout our code:
+		E.g., how to set up an ArrayList of ArrayList of Integers
+		E.g., how to get, set, add (and perhaps remove) elements.
+		E.g., how to iterate.
+		E.g., you can do a "shallow" or "deep copy" of a ArrayList object.
+				See our constructor Graph(Graph g) in Graph.java.
+		E.g., if aL is an ArrayList<Integers>,
+			-- aL.contains(u)	returns true iff u is in aL
+			-- aL.indexOf(u)	returns the index of u, if u is in aL,
+									otherwise it returns -1.
+			-- you can directly print an ArrayList<Integer> object
+				as in System.out.println(aL).
+
+4.  Although you do not have to do anything about this,
+	it may be good to briefly review the concept of Java Interfaces.
+	This is just Java's idea of an ADT.  Take a brief look at the
+	"UnionFindInterface" in the file "UnionFindInterface.java".
+	We implement this interface in "UnionFind.java".
+
+5.  As usual, we provide Makefile and make-include.
+	You need to customize "make-include" for your platform,
+	but MUST NOT change "Makefile".
+	In Makefile, we have a section called "FIXED TARGETS".
+	You can try running some targets in this section.
+	E.g., to understand our Graph implementation, please
+		to run some of the fixed targets here:
+			> make testGraph	
+			> make testGraph1
+			> make testGraph2
+	As usual, we have shorter target names which you can browse
+	in the Makefile.  Moreover, you override the standard arguments
+	(ss,nn,mm) at command line: e.g.,
+			> make testGraph mm=1 ss=1234
+	We have other targets which you may use
+	to test your own implementations.
+	
+	Finally, you can create a zip file
+	for submission to Gradescope just by typing
+				> make zip
+	and the file "hw6-XXX.zip" will be created where XXX
+	is the value $(myName) defined in make-include.
+
+6.  OUTPUT FILES:
+	We provide sample output files in two subfolders:
+					OUT-REFERENCE and OUT.
+	The former folder contains output from all our own implementation
+	for this homework, using modes mm=1 or mm=2 (sometimes mm=3). 
+	(The mode mm=0 can be use for your own debugging.)
+
+	The subfolder called OUT is where you should place 
+	your own final output.  We use it for grading.
+	It contains output from
+				"myGraphWt", "myUnionFind" and "myKruskal"
+	as produced by the target
+				> make testMyOutput
+				(or > make tmout)
+	YOUR GOAL IS TO DUPLICATE THE CORRESPONDING FILES in OUT-REFERENCE.
+----------------------------------------------------
+NOW, PROCEED TO READ THE OVERVIEW OF EACH *java FILE.
+----------------------------------------------------
+

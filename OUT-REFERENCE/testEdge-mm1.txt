@@ -1,0 +1,9 @@
+mm=1: testSort for sorting edge list
+==========testSort of edge list: list size=26
+
+Edge list before sorting:
+ A->H/6 B->A/11 B->E/16 B->C/6 B->H/10 B->F/2 B->J/18 C->D/19 C->A/5 C->G/14 C->F/0 C->E/12 D->C/3 D->H/0 D->G/7 E->G/0 E->B/2 G->C/7 H->I/16 H->E/2 H->G/13 I->J/5 I->A/0 I->G/4 I->H/0 I->D/7
+
+Edge list after sorting:
+ I->H/0 I->A/0 E->G/0 D->H/0 C->F/0 H->E/2 E->B/2 B->F/2 D->C/3 I->G/4 I->J/5 C->A/5 B->C/6 A->H/6 I->D/7 G->C/7 D->G/7 B->H/10 B->A/11 C->E/12 H->G/13 C->G/14 H->I/16 B->E/16 B->J/18 C->D/19
+ ==========END TEST SORT

@@ -1,0 +1,39 @@
+mm=2: testConnected(nn,rg)
+Bigraph(a) with nn=10 n=10
+A:  H/16 E/1 G/6
+B:  D/0 C/1 E/8
+C:  B/1 E/12 D/5
+D:  B/0 C/5 G/16
+E:  B/8 A/1 C/12 F/14 H/8 J/10
+F:  E/14
+G:  D/16 A/6 J/9
+H:  E/8 A/16
+I:  J/19
+J:  G/9 E/10 I/19
+
+Graph is connected!
+
+Bigraph(b) with nn=10 n=10
+A:  B/15
+B:  C/5 A/15
+C:  B/14
+D:  E/5
+E:  F/12 D/5
+F:  G/7 E/12
+G:  H/6 F/7
+H:  I/3 G/6
+I:  J/2 H/3
+J:  I/2
+
+Bigraph(b) is not connected (CORRECT)
+
+Bigraph(c) with nn=7 n=7
+A:  B/3 C/2
+B:  A/3 C/2
+C:  A/2 B/2
+a:  b/1 d/5
+b:  c/7 a/1
+c:  d/1 b/7
+d:  a/5 c/1
+
+Bigraph(c) is not connected (CORRECT)

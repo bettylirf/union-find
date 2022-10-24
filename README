@@ -1,0 +1,20 @@
+README for graph folder:
+
+What is implemented here:
+	Util class		-- all classes extends this
+	UnionFind class
+	Graph class		-- basic graphs, directed and undirected
+	GraphWt class	-- extends Graph with weights
+	Edge class		-- including sorting list of weighted edge
+	Kruskal class	-- Kruskal's algorithm for MST, using UnionFind
+						
+To zip this folder and put it in the parent, just type
+	> make zip
+
+Chee Yap
+Basic Algo Class
+Fall2021
+
+
+--Chee Yap
+BasicAlgo, Fall2021

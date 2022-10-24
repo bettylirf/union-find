@@ -1,0 +1,68 @@
+mm=2: testBigraphWt and testCanonize
+BiGRAPH! Dump before symmetrize: numEdges=15
+ n=10
+A:  H/16 E/1 G/6
+B:  D/0
+C:  B/1 E/12 D/5
+D:  B/17
+E:  B/8
+F:  E/14
+G:  D/16
+H:  E/8
+I:  J/19
+J:  G/9 E/10
+
+
+
+BiGRAPH! Dump after symmetrize: numEdges=28
+ n=10
+A:  H/16 E/1 G/6
+B:  D/0 C/1 E/8
+C:  B/1 E/12 D/5
+D:  B/0 C/5 G/16
+E:  B/8 A/1 C/12 F/14 H/8 J/10
+F:  E/14
+G:  D/16 A/6 J/9
+H:  E/8 A/16
+I:  J/19
+J:  G/9 E/10 I/19
+
+checkBigraphWt() is OK
+==============testCanonize:
+graphZipfWt: n=10
+A:  H/0
+B:  E/7 G/0
+C:  D/2 B/7 E/16 F/2 J/13
+D:  H/5 F/0 B/4
+E:  F/0 J/7
+F:  G/11
+G:  D/0 E/5
+H:  D/2 C/4
+I:  J/16 C/18 G/15 E/2 B/9
+J:  I/13 B/15 D/4
+
+Edge list before symmetrization:  size=26
+ A->H/0 B->E/7 B->G/0 C->D/2 C->B/7 C->E/16 C->F/2 C->J/13 D->H/5 D->F/0 D->B/4 E->F/0 E->J/7 F->G/11 G->D/0 G->E/5 H->D/2 H->C/4 I->J/16 I->C/18 I->G/15 I->E/2 I->B/9 J->I/13 J->B/15 J->D/4
+graphZipfWt after symmetrization: n=10
+A:  H/0
+B:  E/7 G/0 C/7 D/4 I/9 J/15
+C:  D/2 B/7 E/16 F/2 J/13 H/4 I/18
+D:  H/5 F/0 B/4 C/2 G/0 J/4
+E:  F/0 J/7 B/7 C/16 G/5 I/2
+F:  G/11 C/2 D/0 E/0
+G:  D/0 E/5 B/0 F/11 I/15
+H:  D/5 C/4 A/0
+I:  J/16 C/18 G/15 E/2 B/9
+J:  I/16 B/15 D/4 C/13 E/7
+
+
+
+Edge list after symmetrization:  size=48
+ A->H/0 B->E/7 B->G/0 B->C/7 B->D/4 B->I/9 B->J/15 C->D/2 C->B/7 C->E/16 C->F/2 C->J/13 C->H/4 C->I/18 D->H/5 D->F/0 D->B/4 D->C/2 D->G/0 D->J/4 E->F/0 E->J/7 E->B/7 E->C/16 E->G/5 E->I/2 F->G/11 F->C/2 F->D/0 F->E/0 G->D/0 G->E/5 G->B/0 G->F/11 G->I/15 H->D/5 H->C/4 H->A/0 I->J/16 I->C/18 I->G/15 I->E/2 I->B/9 J->I/16 J->B/15 J->D/4 J->C/13 J->E/7
+
+Canonized edge list:  size=24
+ A->H/0 B->E/7 B->G/0 B->C/7 B->D/4 B->I/9 B->J/15 C->D/2 C->E/16 C->F/2 C->J/13 C->H/4 C->I/18 D->H/5 D->F/0 D->G/0 D->J/4 E->F/0 E->J/7 E->G/5 E->I/2 F->G/11 G->I/15 I->J/16
+
+checkBigraphWt() is OK
+
+============END testCanonize

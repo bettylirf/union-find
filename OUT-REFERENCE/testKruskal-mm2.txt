@@ -1,0 +1,45 @@
+mm=2: unitTest(26,111)
+===================== START KRUSKAL
+===================== SETUP KRUSKAL
+Connected bigraph for Kruskal: n=26
+ n=26
+A:  O/30 Z/43 B/31 J/27 Q/31 R/29 F/42 M/48 K/12 H/11 C/46 I/32 G/14 E/23 V/6 D/40 X/48
+B:  D/28 E/10 A/31 J/2 P/5 R/32 S/1 T/25
+C:  Y/40 D/0 K/36 A/46 F/43 G/25 L/4 M/34 O/24 R/31 T/1 W/50
+D:  A/40 V/43 G/38 U/38 P/41 X/16 B/28 O/8 K/27 F/35 T/32 W/18 Z/30 M/44 H/33 S/33 C/0 J/26 R/23
+E:  A/23 B/10 F/44 G/47 J/5 K/37 L/33 M/42 O/7 P/20 R/5 S/14 T/10 W/30
+F:  S/16 Q/17 W/22 T/3 H/7 E/44 U/3 C/43 R/3 O/4 P/23 A/42 D/35 J/11 K/31 X/27 Z/15
+G:  I/20 E/47 L/15 S/38 N/38 Q/16 K/25 A/14 C/25 P/5 M/41 R/40 X/14 D/38 J/9 O/7 T/46
+H:  R/11 P/49 F/7 X/37 K/42 A/11 D/33 J/1 M/6 Q/22 S/6 V/12 W/10
+I:  R/39 A/32 G/20 J/37 L/43 M/22 P/14 W/34 X/6 Y/18
+J:  P/16 H/1 Y/43 F/11 D/26 I/37 B/2 S/40 G/9 U/36 L/2 T/5 Z/5 K/12 E/5 A/27 Q/20 W/45
+K:  C/36 U/47 V/29 X/37 T/24 E/37 M/10 O/18 F/31 Q/32 A/12 D/27 G/25 H/42 J/12 L/8 P/32 R/25 S/33 W/36
+L:  J/2 Z/12 E/33 C/4 G/15 M/37 O/12 V/20 K/8 X/33 I/43 P/38 Q/5 R/35 S/48 Y/35
+M:  D/44 C/34 A/48 N/46 Q/48 V/36 T/15 Z/28 H/6 E/42 Y/25 I/22 G/41 K/10 L/37 O/37 P/8 W/24
+N:  G/38 M/46 P/36 Q/42 T/34 W/33
+O:  G/7 E/7 L/12 Y/20 T/46 C/24 K/18 X/49 S/2 Z/25 U/11 R/40 Q/7 W/21 A/30 F/4 M/37 D/8 P/41
+P:  D/41 F/23 H/49 B/5 Q/30 N/36 K/32 R/17 Y/36 O/41 E/20 W/27 V/36 S/28 Z/20 I/14 L/38 M/8 G/5 J/16
+Q:  K/32 L/5 U/48 R/42 Y/25 S/40 O/7 Z/45 F/17 M/48 X/42 J/20 N/42 T/27 H/22 A/31 G/16 P/30 W/18
+R:  X/34 B/32 W/30 T/6 P/17 C/31 A/29 O/40 D/23 E/5 K/25 F/3 S/10 L/35 I/39 G/40 H/11 Q/42
+S:  K/33 J/40 E/14 B/1 L/48 Z/30 X/23 H/6 P/28 U/28 D/33 F/16 G/38 O/2 Q/40 R/10 W/30 Y/50
+T:  F/3 M/15 E/10 C/1 Z/50 G/46 B/25 Q/27 X/44 K/24 U/25 R/6 Y/42 N/34 D/32 J/5 O/46 W/3
+U:  Z/11 T/25 D/38 F/3 J/36 K/47 O/11 Q/48 S/28 Y/3
+V:  P/36 Y/39 H/12 A/6 D/43 K/29 L/20 M/36
+W:  H/10 Z/25 P/27 C/50 K/36 M/24 E/30 S/30 N/33 J/45 T/3 I/34 Q/18 Y/31 D/18 F/22 O/21 R/30 X/22
+X:  K/37 I/6 H/37 W/22 F/27 A/48 D/16 L/33 G/14 O/49 Q/42 R/34 S/23 T/44 Y/32
+Y:  U/3 Z/6 S/50 Q/25 L/35 X/32 I/18 O/20 C/40 J/43 M/25 P/36 T/42 V/39 W/31
+Z:  F/15 D/30 P/20 A/43 L/12 W/25 S/30 J/5 M/28 O/25 Q/45 T/50 U/11 Y/6
+
+Sorted list of edges:  size=398
+ C->D/0 H->J/1 C->T/1 B->S/1 O->S/2 J->L/2 B->J/2 U->Y/3 T->W/3 F->R/3 F->U/3 F->T/3 F->O/4 C->L/4 L->Q/5 J->Z/5 J->T/5 G->P/5 E->R/5 E->J/5 B->P/5 Y->Z/6 R->T/6 I->X/6 H->S/6 H->M/6 A->V/6 O->Q/7 G->O/7 F->H/7 E->O/7 M->P/8 K->L/8 D->O/8 G->J/9 R->S/10 K->M/10 H->W/10 E->T/10 B->E/10 U->Z/11 O->U/11 H->R/11 F->J/11 A->H/11 L->O/12 L->Z/12 J->K/12 H->V/12 A->K/12 I->P/14 G->X/14 E->S/14 A->G/14 M->T/15 G->L/15 F->Z/15 J->P/16 G->Q/16 F->S/16 D->X/16 P->R/17 F->Q/17 Q->W/18 K->O/18 I->Y/18 D->W/18 P->Z/20 O->Y/20 L->V/20 J->Q/20 G->I/20 E->P/20 O->W/21 W->X/22 I->M/22 H->Q/22 F->W/22 S->X/23 F->P/23 D->R/23 A->E/23 M->W/24 K->T/24 C->O/24 W->Z/25 T->U/25 Q->Y/25 O->Z/25 M->Y/25 K->R/25 G->K/25 C->G/25 B->T/25 D->J/26 Q->T/27 P->W/27 F->X/27 D->K/27 A->J/27 S->U/28 P->S/28 M->Z/28 B->D/28 K->V/29 A->R/29 S->W/30 S->Z/30 R->W/30 P->Q/30 E->W/30 D->Z/30 A->O/30 W->Y/31 F->K/31 C->R/31 A->Q/31 A->B/31 X->Y/32 K->P/32 K->Q/32 D->T/32 B->R/32 A->I/32 N->W/33 L->X/33 K->S/33 E->L/33 D->S/33 D->H/33 R->X/34 N->T/34 I->W/34 C->M/34 L->Y/35 L->R/35 D->F/35 P->V/36 P->Y/36 N->P/36 M->V/36 K->W/36 J->U/36 C->K/36 M->O/37 L->M/37 K->X/37 I->J/37 H->X/37 E->K/37 L->P/38 G->N/38 G->S/38 D->U/38 D->G/38 V->Y/39 I->R/39 Q->S/40 O->R/40 J->S/40 G->R/40 C->Y/40 A->D/40 O->P/41 G->M/41 D->P/41 T->Y/42 Q->X/42 Q->R/42 N->Q/42 H->K/42 E->M/42 A->F/42 J->Y/43 I->L/43 D->V/43 C->F/43 A->Z/43 T->X/44 E->F/44 D->M/44 Q->Z/45 J->W/45 O->T/46 M->N/46 G->T/46 A->C/46 K->U/47 E->G/47 Q->U/48 M->Q/48 L->S/48 A->X/48 A->M/48 O->X/49 H->P/49 T->Z/50 S->Y/50 C->W/50
+===================== RUNNING KRUSKAL
+===================== STATS and MST OF KRUSKAL
+MST with cost=137
+ C->D/0 H->J/1 C->T/1 B->S/1 O->S/2 J->L/2 B->J/2 U->Y/3 T->W/3 F->R/3 F->U/3 F->T/3 F->O/4 L->Q/5 J->Z/5 G->P/5 E->R/5 B->P/5 I->X/6 H->M/6 A->V/6 K->L/8 A->H/11 I->P/14 N->W/33
+
+Statistics from Union Find:
+UnionFind Statistics for U=26
+Number of naive finds=448
+Number of naive unions=25
+Total count =1914
+===================== END KRUSKAL

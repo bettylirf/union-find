@@ -1,0 +1,9 @@
+mm=2: test canonization of edge list
+==========testCanonization of bigraph:
+
+Before canonization: eL.size()=28
+ A->H/16 A->E/1 A->G/6 B->D/0 B->C/1 B->E/8 C->B/1 C->E/12 C->D/5 D->B/0 D->C/5 D->G/16 E->B/8 E->A/1 E->C/12 E->F/14 E->H/8 E->J/10 F->E/14 G->D/16 G->A/6 G->J/9 H->E/8 H->A/16 I->J/19 J->G/9 J->E/10 J->I/19
+
+After canonization: eL.size()=14
+ A->H/16 A->E/1 A->G/6 B->D/0 B->C/1 B->E/8 C->E/12 C->D/5 D->G/16 E->F/14 E->H/8 E->J/10 G->J/9 I->J/19
+ ==========END TEST CANONIZE

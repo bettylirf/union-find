@@ -1,0 +1,43 @@
+mm=1: testUnion
+TEST GRAPH UNION
+g1 = Graph K_3: n=3
+A:  B/1 C/2
+B:  A/1 C/5
+C:  A/5 B/4
+
+g2 = Graph C_4: n=4
+A:  B/5
+B:  C/4
+C:  D/3
+D:  A/2
+
+g3 = GraphWt(5,rg): n=5
+A:  C/0
+B:  A/6 E/0 C/5
+C: 
+D: 
+E:  D/5
+
+g1+g2: n=7
+A:  B/1 C/2
+B:  A/1 C/5
+C:  A/5 B/4
+a:  b/5
+b:  c/4
+c:  d/3
+d:  a/2
+
+(g1+g2)+g3: n=12
+A:  B/1 C/2
+B:  A/1 C/5
+C:  A/5 B/4
+D:  E/5
+E:  F/4
+F:  G/3
+G:  D/2
+a:  c/0
+b:  a/6 e/0 c/5
+c: 
+d: 
+e:  d/5
+
